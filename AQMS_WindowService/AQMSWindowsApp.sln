@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQMSWindowsApp", "AQMSWindowsApp.csproj", "{EC343EA8-CFC8-49CC-9862-B212AC922CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQMSDataUpdateLibrary", "..\AQMSDataUpdateLibrary\AQMSDataUpdateLibrary.csproj", "{06EBADE0-10AC-4035-B88E-A6B82370DC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQMSDataUpdateService", "..\AQMSDataUpdateService\AQMSDataUpdateService.csproj", "{651559E2-F6FB-473C-8D0C-54CF2ED4AE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC343EA8-CFC8-49CC-9862-B212AC922CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC343EA8-CFC8-49CC-9862-B212AC922CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC343EA8-CFC8-49CC-9862-B212AC922CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC343EA8-CFC8-49CC-9862-B212AC922CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EBADE0-10AC-4035-B88E-A6B82370DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EBADE0-10AC-4035-B88E-A6B82370DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EBADE0-10AC-4035-B88E-A6B82370DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EBADE0-10AC-4035-B88E-A6B82370DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651559E2-F6FB-473C-8D0C-54CF2ED4AE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651559E2-F6FB-473C-8D0C-54CF2ED4AE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651559E2-F6FB-473C-8D0C-54CF2ED4AE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651559E2-F6FB-473C-8D0C-54CF2ED4AE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {790CD865-3771-470A-A621-32F19A1C9728}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs2.smartgeoapps.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AQMSWindowsApp.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\AQMSDataUpdateLibrary\\AQMSDataUpdateLibrary.csproj
+		SccProjectName2 = ../AQMSDataUpdateLibrary
+		SccLocalPath2 = ..\\AQMSDataUpdateLibrary
+		SccProjectUniqueName3 = ..\\AQMSDataUpdateService\\AQMSDataUpdateService.csproj
+		SccProjectName3 = ../AQMSDataUpdateService
+		SccLocalPath3 = ..\\AQMSDataUpdateService
+	EndGlobalSection
+EndGlobal
